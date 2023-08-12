@@ -17,6 +17,31 @@
 	color: #594343;
 }
 
+.footer {
+	background-color: #976e9367;
+}
+
+.footer span {
+	font-size: 30px;
+	color: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icons-footer a {
+	color: #fff;
+	font-size: 25px;
+}
+
+.footer hr {
+	color: #fff;
+}
+.footer p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+
 /* Phone */
 @media (min-width: 320px) and (max-width: 767px) {
 	.title {
@@ -31,8 +56,29 @@
 		padding: 0px 10px;
 	}
 	.icon {
-		width: 29px;
-		height: 29px;
+		width: 30px;
+		height: 30px;
+	}
+	.footer span {
+		font-size: 22px;
+		color: #fff;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.footer .logo {
+		display: flex;
+	}
+	.footer img {
+		width: 35px;
+		height: 35px;
+	}
+	.icons-footer a {
+		color: #fff;
+		font-size: 17px;
+	}
+	.footer p {
+		color: #fff;
+		font-size: 13px;
+		text-align: center;
 	}
 }
 
@@ -54,5 +100,26 @@
 	.icon {
 		width: 49px;
 		height: 49px;
+	}
+	.footer span {
+		font-size: 25px;
+		color: #fff;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.footer .logo {
+		display: flex;
+	}
+	.footer img {
+		width: 40px;
+		height: 40px;
+	}
+	.icons-footer a {
+		color: #fff;
+		font-size: 20px;
+	}
+	.footer p {
+		color: #fff;
+		font-size: 15px;
+		text-align: center;
 	}
 }
