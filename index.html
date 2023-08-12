@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
+
+	<!-- HEADER -->
 	<div class="container-fluid">
 		<div class="row navbar-light bg-light">
 			<div class="col-6">
 				<nav class="navbar">
 					<div class="container">
 						<a class="navbar-brand" href="#">
-							<img src="./images/bootstrap-logo.png" alt="" width="35" height="29">
+							<img class="icon" src="./images/bootstrap-logo.png" alt="" width="59" height="59">
 						</a>
 					</div>
 				</nav>
@@ -28,8 +30,10 @@
 			</div>
 		</div>
 	</div>
-	<div id="carouselExampleControls" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
-		<div class="carousel-inner">
+
+	<!-- CAROUSEL -->
+	<div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+		<div class="carousel-inner carousel">
 			<div class="carousel-item active">
 				<img src="./images/img-1.jpg" class="d-block w-100" alt="..." height="550">
 			</div>
@@ -50,7 +54,135 @@
 		</button>
 	</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<!-- CARDS -->
+	<h1 class="d-none d-lg-block p-4 title" >Cards Desktop</h1>
+	<h1 class="d-none d-lg-none d-md-block p-4 title">Cards Tablet</h1>
+	<h1 class="d-block d-md-none p-4 title">Cards Mobile</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 cards justify-content-center d-flex">
+				<div class="card" style="width: 18rem;"+>
+					<img src="./images/card-1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 01</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="./images/card-1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 02</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-sm-none d-md-block" style="width: 18rem;">
+					<img src="./images/card-1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 03</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-lg-block" style="width: 18rem;">
+					<img src="./images/card-1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 04</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-12 cards pt-3 justify-content-center d-flex">
+				<div class="card" style="width: 18rem;"+>
+					<img src="./images/card-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 01</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="./images/card-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 02</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-sm-none d-md-block" style="width: 18rem;">
+					<img src="./images/card-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 03</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-lg-block" style="width: 18rem;">
+					<img src="./images/card-2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 04</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 cards pt-3 justify-content-center d-flex">
+				<div class="card" style="width: 18rem;"+>
+					<img src="./images/card-3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 01</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="./images/card-3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 02</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-sm-none d-md-block" style="width: 18rem;">
+					<img src="./images/card-3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 03</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-lg-block" style="width: 18rem;">
+					<img src="./images/card-3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 04</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 cards pt-3 justify-content-center d-flex">
+				<div class="card d-none d-md-block d-lg-none" style="width: 18rem;"+>
+					<img src="./images/card-4.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 01</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-md-block d-lg-none" style="width: 18rem;">
+					<img src="./images/card-4.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 02</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+				<div class="card d-none d-md-block d-lg-none" style="width: 18rem;">
+					<img src="./images/card-4.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<span>Card 03</span>
+						<p class="card-text">Aquí va información acerca del producto o imagen del card a mostrar.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  
+	
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>
